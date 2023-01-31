@@ -1,0 +1,19 @@
+#ID FOR ALL VALUE IN ARRAY
+
+import numpy as np
+
+a=np.array([1,2,3])
+
+for i in a:
+
+    print(i,"id is:- ",id(i))
+
+# IF TWO OR MORE HAVE SAME VALUES THEN THE HAVE SAME ID
+
+x = 10
+
+y = x
+
+if id(x) == id(y):
+
+	print("x and y refer to the same object")
